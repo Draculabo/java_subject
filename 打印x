@@ -1,0 +1,17 @@
+    public static void main(String[] args) {
+//        使用嵌套for循环实现x型
+        for (int i = 1; i <=7 ; i++) {
+            for (int j = 1; j <=7 ; j++) {
+//                如果i==j或 j+i=8则打印x
+                if (i==j||i+j==8){
+                    System.out.print("0");
+
+                }else {
+                    //否则打印*
+                    System.out.print("*");
+                }
+            }
+            //控制换行
+            System.out.println();
+        }
+    }
