@@ -1,0 +1,13 @@
+//        最外部for循环控制行的输出
+        for (int i = 1; i <=5 ; i++) {
+//            控制*号最左边的空格
+            for (int j = 5; j >=5-i ; j--) {
+                System.out.print(" ");
+            }
+//            打印*后的空格
+            for (int k = 5; k >=i ; k--) {
+                System.out.print("* ");
+            }
+//            控制换行
+            System.out.println();
+        }
